@@ -197,12 +197,13 @@ while(respuesta=="si"){
 	}
 	else{
 		if(numero>maximo){
-			maximo=numero
+			maximo=numero;
 		}
 		if(numero<minimo){
-			minimo=numero
+			minimo=numero;
 		}
 	}
+	respuesta=prompt("Agregar más números?");
 }
 //Promedio de los números
 promedio=SumaNumeros/contador;
